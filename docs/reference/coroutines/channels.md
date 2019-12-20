@@ -27,7 +27,7 @@ class ChannelsGuideTest {
 
 <!--- TOC -->
 
-* [通道(Channel) (实验性功能)](#channels-experimental)
+* [通道(Channel)](#channels-experimental)
   * [通道的基本概念](#channel-basics)
   * [通道的关闭与迭代](#closing-and-iteration-over-channels)
   * [构建通道的生产者(Producer)](#building-channel-producers)
@@ -41,7 +41,7 @@ class ChannelsGuideTest {
 
 <!--- END_TOC -->
 
-## 通道(Channel) (实验性功能)
+## 通道(Channel)
 
 延迟产生的数据提供了一种方便的方式可以在协程之间传递单个值.
 而通道则提供了另一种方式, 可以在协程之间传递数值的流.
